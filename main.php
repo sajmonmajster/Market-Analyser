@@ -9,7 +9,7 @@ class Coin
     public function __construct()
     {
         try {
-            $this->db = new \PDO('mysql:host=localhost;dbname=sca', 'root', '');
+            $this->db = new \PDO('mysql:host=postgresql-colorful-46818;dbname=sca', 'root', '');
             $this->db->setAttribute(\PDO::ATTR_ERRMODE, \PDO::ERRMODE_EXCEPTION);
         } catch(PDOException $e) {
             echo 'Connection failed: '.$e->getMessage();
