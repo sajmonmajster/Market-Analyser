@@ -1,0 +1,22 @@
+body {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10pt;
+	color: #003868;
+	background-color: #80B8E8;
+	margin: 6mm;
+}
+
+.ziel {
+    background: lawngreen;
+    color: black;
+    font-weight: bold;
+}
+.normal {
+    color: black;
+    font-weight: bold;
+}
+.handluj {
+    background: green;
+    font-weight: bold;
+    color: white;
+}
